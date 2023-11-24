@@ -56,11 +56,18 @@ section .half-width .hire a{
 }
 #ss{
     border-left: 7px solid;
-    border-image: linear-gradient(navy,skyblue);
+    border-image: linear-gradient(180deg,navy,skyblue);
     border-image-slice: 1;
+    background-color: white;
 }
 #pp{
     border-left: 7px solid;
-    border-image: linear-gradient(lightsalmon,tomato);
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
     border-image-slice: 1;
+    background-color: white;
+}
+footer{
+    text-align: center;
+    font-size: 15px;
+    background-color: antiquewhite;
 }
